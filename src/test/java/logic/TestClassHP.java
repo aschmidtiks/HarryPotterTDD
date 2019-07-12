@@ -15,16 +15,7 @@ public class TestClassHP {
 	public void testSetup() {
 		shoppingCart = new ShoppingCart();
 	}
-
-	@Test
-	public void testSingleStuffDynamic() {
-		assertEquals(4 * (8 * 5 * 0.75) + (8 * 3 * 0.9), shoppingCart.price(new int[] {0, 0, 0, 0, 0,
-														 	     		 	   1, 1, 1, 1, 1,
-														 	     		 	   2, 2, 2, 2,
-														 	     		 	   3, 3, 3, 3, 3,
-														 	     		 	   4, 4, 4, 4}), "EdgeCases 2");
-	}
-
+	
 	@Test
 	public void testInitialTest() {
 				
