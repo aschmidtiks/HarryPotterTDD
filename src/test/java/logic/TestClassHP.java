@@ -15,7 +15,7 @@ public class TestClassHP {
 	public void testSetup() {
 		shoppingCart = new ShoppingCart();
 	}
-	
+
 	@Test
 	public void testInitialTest() {
 				
